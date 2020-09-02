@@ -94,7 +94,7 @@ class NavbarPage extends Component {
 									<MDBContainer>
 										<MDBRow className="mx-auto">
 											<MDBCol>
-												<Link href='/home'>
+												<Link href="/home">
 													<a>
 														{/* <MDBIcon size="2x" icon="home" /> */}
 														<MDBBtn outline rounded>
@@ -153,6 +153,16 @@ class NavbarPage extends Component {
 										<Link href="/home/settings">
 											<a>
 												<MDBIcon size="2x" far icon="user-circle" className="my-3" />
+											</a>
+										</Link>
+									</MDBNavItem>
+								</MDBCol>
+
+								<MDBCol className="border mx-0 px-0">
+									<MDBNavItem active>
+										<Link href="/home/listings">
+											<a>
+												<MDBIcon size="2x" icon="plus" className="my-3" />
 											</a>
 										</Link>
 									</MDBNavItem>

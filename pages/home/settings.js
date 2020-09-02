@@ -5,6 +5,7 @@ import Layout from '../../Components/UserPages/UserLayout';
 import Content from '../../Components/UserPages/Content';
 import UserInfo from '../../Components/UserPages/AccountInfo';
 import Transactions from '../../Components/UserPages/Transactions'
+import MyWares from '../../Components/UserPages/MyWares'
 
 class Settings extends Component {
 	render() {
@@ -16,6 +17,7 @@ class Settings extends Component {
 							<UserInfo />
 						</MDBCol>
 						<MDBCol md="10" className="mx-auto">
+							<MyWares />
 							<Transactions />
 						</MDBCol>
 					</MDBRow>
