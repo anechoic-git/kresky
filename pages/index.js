@@ -11,11 +11,28 @@ class HomePage extends Component {
 				<MDBContainer className="mt-5 text-center">
 					<MDBRow className="mx-lg-5">
 						<MDBCol>
-							<MDBJumbotron className='z-depth-0'>
+							<MDBJumbotron className="z-depth-0">
 								<h2 className="h1 display-3 font-weight-bold">Welcome to Kresky</h2>
 								<p className="lead">The easiest way to Offer Wares, Contribute, Subscribe, and More on the Open Web.</p>
-								
+
 								<p>Using web3 technologies!</p>
+								<MDBCol md="6" className="mt-5 mx-auto">
+									<div className="d-inline">
+										<input
+											className="form-control"
+											type="text"
+											placeholder="Find What You're Looking For..."
+											aria-label="Search"
+										/>
+									</div>
+									<div className="d-inline">
+										<Link href="/hello">
+											<a>
+												<MDBBtn rounded outline className='mt-3'>Search</MDBBtn>
+											</a>
+										</Link>
+									</div>
+								</MDBCol>
 								<p className="lead">
 									{/* <MDBRow className="">
 										<MDBCol>

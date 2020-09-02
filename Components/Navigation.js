@@ -16,6 +16,7 @@ import {
 } from 'mdbreact';
 import Link from 'next/link';
 import { withRouter } from 'next/router';
+import Ramp from './Ramp'
 
 class NavbarPage extends Component {
 	state = {
@@ -95,18 +96,18 @@ class NavbarPage extends Component {
 											<a href="/" target="blank">
 												{/* <MDBIcon size="2x" icon="home" /> */}
 												<MDBBtn outline rounded>
-													Login
+													Login/SignUp
 												</MDBBtn>
 											</a>
 										</MDBCol>
-										<MDBCol>
+										{/* <MDBCol>
 											<a href="/" target="blank">
-												{/* <MDBIcon size="2x" icon="wallet" /> */}
+												<MDBIcon size="2x" icon="wallet" />
 												<MDBBtn outline rounded>
 													SignUp
 												</MDBBtn>
 											</a>
-										</MDBCol>
+										</MDBCol> */}
 										{/* <MDBCol>
 											<a href="/" target="blank">
 												<MDBIcon size="2x" icon="plus" />

@@ -15,15 +15,20 @@
   "license": "ISC",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.14.0",
+    "@ramp-network/ramp-instant-sdk": "^2.1.1",
+    "@walletconnect/web3-provider": "^1.2.2",
+    "@web3-react/core": "^6.1.1",
     "@zeit/next-css": "^1.0.1",
     "isomorphic-unfetch": "^3.0.0",
-    "next": "^9.5.2",
     "mdbreact": "./mdbreact-4.27.0.tgz",
+    "next": "^9.5.2",
     "next-compose-plugins": "^2.2.0",
     "next-fonts": "^1.4.0",
     "next-images": "^1.4.1",
     "next-session": "^3.2.3",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "web3-react": "^5.0.5",
+    "web3modal": "^1.9.0"
   }
 }

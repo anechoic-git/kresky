@@ -7,7 +7,7 @@ export default function Layout({ children }) {
 		<div className="">
 			<Navigation />
 
-			<main className="mt-5 pt-3 nav-clearnace">{children}</main>
+			<main className="mt-md-5 pt-3 nav-clearnace">{children}</main>
 
 			{/* <Footer /> */}
 			{/* <Modal /> */}
