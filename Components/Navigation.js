@@ -55,7 +55,7 @@ class NavbarPage extends Component {
 					<MDBNavbarBrand className="white-text py-0">
 						<Link href="/">
 							<a>
-								<h2 className=''>K</h2>
+								<h2 className="">K</h2>
 							</a>
 						</Link>
 					</MDBNavbarBrand>
@@ -91,14 +91,12 @@ class NavbarPage extends Component {
 
 							<MDBNavItem className="my-auto" right>
 								<MDBContainer>
-									<MDBRow className='mx-auto'>
+									<MDBRow className="mx-auto">
 										<MDBCol>
-											<a href="/" target="blank">
-												{/* <MDBIcon size="2x" icon="home" /> */}
-												<MDBBtn outline rounded>
-													Login/SignUp
-												</MDBBtn>
-											</a>
+											{/* <MDBIcon size="2x" icon="home" /> */}
+											<MDBBtn outline rounded onClick={this.props.toggleWalletConnect}>
+												Login/SignUp
+											</MDBBtn>
 										</MDBCol>
 										{/* <MDBCol>
 											<a href="/" target="blank">
