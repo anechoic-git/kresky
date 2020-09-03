@@ -30,10 +30,10 @@ const PV1 = () => {
 								<MDBCardBody>
 									<h4 className="card-title">Anna Doe</h4>
 									{/* <hr /> */}
-									{/* <p>
+									<p>
 										<MDBIcon icon="quote-left" /> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos,
 										adipisci <MDBIcon icon="quote-right" />
-									</p> */}
+									</p>
 								</MDBCardBody>
 							</MDBCard>
 						</MDBCol>
