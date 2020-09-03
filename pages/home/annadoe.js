@@ -37,7 +37,7 @@ class CardExample extends Component {
 								<h4 className="card-title">Anna Doe</h4>
 								<hr />
 								<p>
-									<MDBIcon icon="quote-left" /> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci{' '}
+									<MDBIcon icon="quote-left" /> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci
 									<MDBIcon icon="quote-right" />
 								</p>
 							</MDBCardBody>
